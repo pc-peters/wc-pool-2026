@@ -1,0 +1,807 @@
+{
+  "setup": {
+    "Paul": {
+      "winner": "France"
+    },
+    "Clarence": {
+      "winner": "Germany"
+    },
+    "Randall": {
+      "winner": "France"
+    },
+    "Rayner": {
+      "winner": "Spain"
+    },
+    "Ai Jie": {
+      "winner": "France"
+    },
+    "Clara": {
+      "winner": "France"
+    },
+    "Imee": {
+      "winner": "Argentina"
+    },
+    "Jia Hong": {
+      "winner": "Spain"
+    }
+  },
+  "groupPredictions": {
+    "A": {
+      "Paul": {
+        "first": "Mexico",
+        "second": "South Korea"
+      },
+      "Clarence": {
+        "first": "Mexico",
+        "second": "Czechia"
+      },
+      "Randall": {
+        "first": "Mexico",
+        "second": "South Korea"
+      },
+      "Rayner": {
+        "first": "Mexico",
+        "second": "South Korea"
+      },
+      "Ai Jie": {
+        "first": "Mexico",
+        "second": "South Korea"
+      },
+      "Clara": {
+        "first": "Czechia",
+        "second": "Mexico"
+      },
+      "Imee": {
+        "first": "Mexico",
+        "second": "South Korea"
+      },
+      "Jia Hong": {
+        "first": "South Korea",
+        "second": "Mexico"
+      }
+    },
+    "B": {
+      "Paul": {
+        "first": "Bosnia-Herzegovina",
+        "second": "Switzerland"
+      },
+      "Clarence": {
+        "first": "Switzerland",
+        "second": "Canada"
+      },
+      "Randall": {
+        "first": "Switzerland",
+        "second": "Canada"
+      },
+      "Rayner": {
+        "first": "Switzerland",
+        "second": "Canada"
+      },
+      "Ai Jie": {
+        "first": "Switzerland",
+        "second": "Canada"
+      },
+      "Clara": {
+        "first": "Bosnia-Herzegovina",
+        "second": "Switzerland"
+      },
+      "Imee": {
+        "first": "Switzerland",
+        "second": "Canada"
+      },
+      "Jia Hong": {
+        "first": "Switzerland",
+        "second": "Canada"
+      }
+    },
+    "C": {
+      "Paul": {
+        "first": "Brazil",
+        "second": "Morocco"
+      },
+      "Clarence": {
+        "first": "Brazil",
+        "second": "Scotland"
+      },
+      "Randall": {
+        "first": "Brazil",
+        "second": "Morocco"
+      },
+      "Rayner": {
+        "first": "Brazil",
+        "second": "Morocco"
+      },
+      "Ai Jie": {
+        "first": "Brazil",
+        "second": "Morocco"
+      },
+      "Clara": {
+        "first": "Brazil",
+        "second": "Scotland"
+      },
+      "Imee": {
+        "first": "Brazil",
+        "second": "Morocco"
+      },
+      "Jia Hong": {
+        "first": "Brazil",
+        "second": "Morocco"
+      }
+    },
+    "D": {
+      "Paul": {
+        "first": "Türkiye",
+        "second": "United States"
+      },
+      "Clarence": {
+        "first": "Türkiye",
+        "second": "United States"
+      },
+      "Randall": {
+        "first": "Türkiye",
+        "second": "United States"
+      },
+      "Rayner": {
+        "first": "United States",
+        "second": "Australia"
+      },
+      "Ai Jie": {
+        "first": "United States",
+        "second": "Türkiye"
+      },
+      "Clara": {
+        "first": "United States",
+        "second": "Türkiye"
+      },
+      "Imee": {
+        "first": "United States",
+        "second": "Türkiye"
+      },
+      "Jia Hong": {
+        "first": "Türkiye",
+        "second": "United States"
+      }
+    },
+    "E": {
+      "Paul": {
+        "first": "Germany",
+        "second": "Ecuador"
+      },
+      "Clarence": {
+        "first": "Germany",
+        "second": "Ecuador"
+      },
+      "Randall": {
+        "first": "Germany",
+        "second": "Ivory Coast"
+      },
+      "Rayner": {
+        "first": "Germany",
+        "second": "Ivory Coast"
+      },
+      "Ai Jie": {
+        "first": "Germany",
+        "second": "Ecuador"
+      },
+      "Clara": {
+        "first": "Germany",
+        "second": "Ecuador"
+      },
+      "Imee": {
+        "first": "Germany",
+        "second": "Ecuador"
+      },
+      "Jia Hong": {
+        "first": "Germany",
+        "second": "Ecuador"
+      }
+    },
+    "F": {
+      "Paul": {
+        "first": "Japan",
+        "second": "Netherlands"
+      },
+      "Clarence": {
+        "first": "Netherlands",
+        "second": "Japan"
+      },
+      "Randall": {
+        "first": "Netherlands",
+        "second": "Japan"
+      },
+      "Rayner": {
+        "first": "Netherlands",
+        "second": "Sweden"
+      },
+      "Ai Jie": {
+        "first": "Netherlands",
+        "second": "Japan"
+      },
+      "Clara": {
+        "first": "Netherlands",
+        "second": "Sweden"
+      },
+      "Imee": {
+        "first": "Netherlands",
+        "second": "Sweden"
+      },
+      "Jia Hong": {
+        "first": "Netherlands",
+        "second": "Sweden"
+      }
+    },
+    "G": {
+      "Paul": {
+        "first": "Belgium",
+        "second": "Egypt"
+      },
+      "Clarence": {
+        "first": "Belgium",
+        "second": "Iran"
+      },
+      "Randall": {
+        "first": "Belgium",
+        "second": "Egypt"
+      },
+      "Rayner": {
+        "first": "Belgium",
+        "second": "Egypt"
+      },
+      "Ai Jie": {
+        "first": "Belgium",
+        "second": "Iran"
+      },
+      "Clara": {
+        "first": "Belgium",
+        "second": "Egypt"
+      },
+      "Imee": {
+        "first": "Belgium",
+        "second": "Egypt"
+      },
+      "Jia Hong": {
+        "first": "Belgium",
+        "second": "Egypt"
+      }
+    },
+    "H": {
+      "Paul": {
+        "first": "Spain",
+        "second": "Uruguay"
+      },
+      "Clarence": {
+        "first": "Spain",
+        "second": "Uruguay"
+      },
+      "Randall": {
+        "first": "Spain",
+        "second": "Uruguay"
+      },
+      "Rayner": {
+        "first": "Spain",
+        "second": "Uruguay"
+      },
+      "Ai Jie": {
+        "first": "Spain",
+        "second": "Uruguay"
+      },
+      "Clara": {
+        "first": "Spain",
+        "second": "Uruguay"
+      },
+      "Imee": {
+        "first": "Spain",
+        "second": "Uruguay"
+      },
+      "Jia Hong": {
+        "first": "Spain",
+        "second": "Uruguay"
+      }
+    },
+    "I": {
+      "Paul": {
+        "first": "France",
+        "second": "Norway"
+      },
+      "Clarence": {
+        "first": "France",
+        "second": "Norway"
+      },
+      "Randall": {
+        "first": "France",
+        "second": "Norway"
+      },
+      "Rayner": {
+        "first": "France",
+        "second": "Senegal"
+      },
+      "Ai Jie": {
+        "first": "France",
+        "second": "Norway"
+      },
+      "Clara": {
+        "first": "France",
+        "second": "Norway"
+      },
+      "Imee": {
+        "first": "France",
+        "second": "Norway"
+      },
+      "Jia Hong": {
+        "first": "France",
+        "second": "Senegal"
+      }
+    },
+    "J": {
+      "Paul": {
+        "first": "Argentina",
+        "second": "Algeria"
+      },
+      "Clarence": {
+        "first": "Argentina",
+        "second": "Austria"
+      },
+      "Randall": {
+        "first": "Argentina",
+        "second": "Algeria"
+      },
+      "Rayner": {
+        "first": "Argentina",
+        "second": "Algeria"
+      },
+      "Ai Jie": {
+        "first": "Argentina",
+        "second": "Austria"
+      },
+      "Clara": {
+        "first": "Argentina",
+        "second": "Algeria"
+      },
+      "Imee": {
+        "first": "Argentina",
+        "second": "Austria"
+      },
+      "Jia Hong": {
+        "first": "Argentina",
+        "second": "Austria"
+      }
+    },
+    "K": {
+      "Paul": {
+        "first": "Portugal",
+        "second": "Colombia"
+      },
+      "Clarence": {
+        "first": "Portugal",
+        "second": "Colombia"
+      },
+      "Randall": {
+        "first": "Portugal",
+        "second": "Colombia"
+      },
+      "Rayner": {
+        "first": "Portugal",
+        "second": "Colombia"
+      },
+      "Ai Jie": {
+        "first": "Portugal",
+        "second": "Colombia"
+      },
+      "Clara": {
+        "first": "Portugal",
+        "second": "Colombia"
+      },
+      "Imee": {
+        "first": "Portugal",
+        "second": "Colombia"
+      },
+      "Jia Hong": {
+        "first": "Colombia",
+        "second": "Portugal"
+      }
+    },
+    "L": {
+      "Paul": {
+        "first": "England",
+        "second": "Ghana"
+      },
+      "Clarence": {
+        "first": "England",
+        "second": "Croatia"
+      },
+      "Randall": {
+        "first": "England",
+        "second": "Croatia"
+      },
+      "Rayner": {
+        "first": "England",
+        "second": "Croatia"
+      },
+      "Ai Jie": {
+        "first": "England",
+        "second": "Croatia"
+      },
+      "Clara": {
+        "first": "England",
+        "second": "Croatia"
+      },
+      "Imee": {
+        "first": "England",
+        "second": "Croatia"
+      },
+      "Jia Hong": {
+        "first": "England",
+        "second": "Croatia"
+      }
+    }
+  },
+  "matchDays": {
+    "2026-06-17": {
+      "matches": [
+        {
+          "home": "France",
+          "away": "Senegal",
+          "group": "I",
+          "venue": "New York",
+          "sgtTime": "03:00"
+        },
+        {
+          "home": "Iraq",
+          "away": "Norway",
+          "group": "I",
+          "venue": "Boston",
+          "sgtTime": "06:00"
+        },
+        {
+          "home": "Argentina",
+          "away": "Algeria",
+          "group": "J",
+          "venue": "Kansas City",
+          "sgtTime": "09:00"
+        },
+        {
+          "home": "Austria",
+          "away": "Jordan",
+          "group": "J",
+          "venue": "San Francisco",
+          "sgtTime": "12:00"
+        }
+      ],
+      "bets": {}
+    },
+    "2026-06-18": {
+      "matches": [
+        {
+          "home": "Portugal",
+          "away": "Congo DR",
+          "group": "K",
+          "venue": "Houston",
+          "sgtTime": "01:00"
+        },
+        {
+          "home": "England",
+          "away": "Croatia",
+          "group": "L",
+          "venue": "Dallas",
+          "sgtTime": "04:00"
+        },
+        {
+          "home": "Ghana",
+          "away": "Panama",
+          "group": "L",
+          "venue": "Toronto",
+          "sgtTime": "07:00"
+        },
+        {
+          "home": "Uzbekistan",
+          "away": "Colombia",
+          "group": "K",
+          "venue": "Mexico City",
+          "sgtTime": "10:00"
+        }
+      ],
+      "bets": {}
+    },
+    "2026-06-13": {
+      "matches": [
+        {
+          "home": "Canada",
+          "away": "Bosnia-Herzegovina",
+          "group": "B",
+          "venue": "Toronto",
+          "sgtTime": "03:00"
+        },
+        {
+          "home": "United States",
+          "away": "Paraguay",
+          "group": "D",
+          "venue": "Los Angeles",
+          "sgtTime": "09:00"
+        }
+      ],
+      "bets": {
+        "0": {
+          "Clarence": {
+            "home": 0,
+            "away": 0
+          },
+          "Paul": {
+            "home": 0,
+            "away": 1
+          },
+          "Ai Jie": {
+            "home": 1,
+            "away": 0
+          },
+          "Rayner": {
+            "home": 2,
+            "away": 1
+          },
+          "Imee": {
+            "home": 2,
+            "away": 0
+          },
+          "Jia Hong": {
+            "home": 1,
+            "away": 1
+          },
+          "Randall": {
+            "home": 0,
+            "away": 0
+          },
+          "Clara": {
+            "home": 1,
+            "away": 0
+          }
+        },
+        "1": {
+          "Clarence": {
+            "home": 2,
+            "away": 1
+          },
+          "Paul": {
+            "home": 1,
+            "away": 1
+          },
+          "Ai Jie": {
+            "home": 1,
+            "away": 0
+          },
+          "Rayner": {
+            "home": 2,
+            "away": 1
+          },
+          "Imee": {
+            "home": 2,
+            "away": 2
+          },
+          "Jia Hong": {
+            "home": 1,
+            "away": 2
+          },
+          "Randall": {
+            "home": 3,
+            "away": 1
+          },
+          "Clara": {
+            "home": 1,
+            "away": 0
+          }
+        }
+      }
+    },
+    "2026-06-12": {
+      "matches": [
+        {
+          "home": "Mexico",
+          "away": "South Africa",
+          "group": "A",
+          "venue": "Mexico City",
+          "sgtTime": "03:00"
+        },
+        {
+          "home": "South Korea",
+          "away": "Czechia",
+          "group": "A",
+          "venue": "Guadalajara",
+          "sgtTime": "10:00"
+        }
+      ],
+      "bets": {
+        "0": {
+          "Paul": {
+            "home": 2,
+            "away": 0
+          },
+          "Clarence": {
+            "home": 3,
+            "away": 0
+          },
+          "Ai Jie": {
+            "home": 2,
+            "away": 1
+          },
+          "Rayner": {
+            "home": 2,
+            "away": 0
+          },
+          "Imee": {
+            "home": 3,
+            "away": 1
+          },
+          "Jia Hong": {
+            "home": 2,
+            "away": 1
+          },
+          "Randall": {
+            "home": 4,
+            "away": 0
+          },
+          "Clara": {
+            "home": 2,
+            "away": 1
+          }
+        },
+        "1": {
+          "Paul": {
+            "home": 1,
+            "away": 0
+          },
+          "Clarence": {
+            "home": 1,
+            "away": 2
+          },
+          "Ai Jie": {
+            "home": 2,
+            "away": 1
+          },
+          "Rayner": {
+            "home": 1,
+            "away": 1
+          },
+          "Imee": {
+            "home": 1,
+            "away": 1
+          },
+          "Jia Hong": {
+            "home": 1,
+            "away": 0
+          },
+          "Randall": {
+            "home": 1,
+            "away": 2
+          },
+          "Clara": {
+            "home": 1,
+            "away": 1
+          }
+        }
+      }
+    }
+  },
+  "results": {
+    "2026-06-12": {
+      "0": {
+        "result": {
+          "home": 2,
+          "away": 0
+        },
+        "scores": {
+          "Paul": 10,
+          "Clarence": 5,
+          "Ai Jie": 5,
+          "Rayner": 10,
+          "Imee": 4,
+          "Jia Hong": 5,
+          "Randall": 5,
+          "Clara": 5
+        },
+        "payouts": {
+          "Paul": 6.53,
+          "Clarence": 3.27,
+          "Ai Jie": 3.27,
+          "Rayner": 6.53,
+          "Imee": 2.61,
+          "Jia Hong": 3.27,
+          "Randall": 3.27,
+          "Clara": 3.27
+        },
+        "matchPool": 32,
+        "potContrib": 8,
+        "totalPts": 49
+      },
+      "1": {
+        "result": {
+          "home": 2,
+          "away": 1
+        },
+        "scores": {
+          "Paul": 4,
+          "Clarence": 0,
+          "Ai Jie": 10,
+          "Rayner": 1,
+          "Imee": 1,
+          "Jia Hong": 4,
+          "Randall": 0,
+          "Clara": 1
+        },
+        "payouts": {
+          "Paul": 6.1,
+          "Clarence": 0,
+          "Ai Jie": 15.24,
+          "Rayner": 1.52,
+          "Imee": 1.52,
+          "Jia Hong": 6.1,
+          "Randall": 0,
+          "Clara": 1.52
+        },
+        "matchPool": 32,
+        "potContrib": 8,
+        "totalPts": 21
+      }
+    },
+    "2026-06-13": {
+      "0": {
+        "result": {
+          "home": 1,
+          "away": 1
+        },
+        "scores": {
+          "Clarence": 4,
+          "Paul": 1,
+          "Ai Jie": 1,
+          "Rayner": 1,
+          "Imee": 0,
+          "Jia Hong": 10,
+          "Randall": 4,
+          "Clara": 1
+        },
+        "payouts": {
+          "Clarence": 5.82,
+          "Paul": 1.45,
+          "Ai Jie": 1.45,
+          "Rayner": 1.45,
+          "Imee": 0,
+          "Jia Hong": 14.55,
+          "Randall": 5.82,
+          "Clara": 1.45
+        },
+        "matchPool": 32,
+        "potContrib": 8,
+        "totalPts": 22
+      },
+      "1": {
+        "result": {
+          "home": 4,
+          "away": 1
+        },
+        "scores": {
+          "Clarence": 5,
+          "Paul": 1,
+          "Ai Jie": 4,
+          "Rayner": 5,
+          "Imee": 0,
+          "Jia Hong": 0,
+          "Randall": 5,
+          "Clara": 4
+        },
+        "payouts": {
+          "Clarence": 6.67,
+          "Paul": 1.33,
+          "Ai Jie": 5.33,
+          "Rayner": 6.67,
+          "Imee": 0,
+          "Jia Hong": 0,
+          "Randall": 6.67,
+          "Clara": 5.33
+        },
+        "matchPool": 32,
+        "potContrib": 8,
+        "totalPts": 24
+      }
+    }
+  },
+  "pot": 32,
+  "groupSettlementDone": false,
+  "groupSettlementAmount": 0
+}
