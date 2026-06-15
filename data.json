@@ -954,8 +954,8 @@
             "away": 1
           },
           "Imee": {
-            "home": 0,
-            "away": 1
+            "home": 1,
+            "away": 2
           },
           "Paul": {
             "home": 0,
@@ -1315,7 +1315,7 @@
         },
         "scores": {
           "Rayner": 0,
-          "Imee": 0,
+          "Imee": 1,
           "Paul": 0,
           "Randall": 0,
           "Clara": 1,
@@ -1325,17 +1325,17 @@
         },
         "payouts": {
           "Rayner": 0,
-          "Imee": 0,
+          "Imee": 6.4,
           "Paul": 0,
           "Randall": 0,
-          "Clara": 8,
-          "Ai Jie": 8,
-          "Jia Hong": 8,
-          "Clarence": 8
+          "Clara": 6.4,
+          "Ai Jie": 6.4,
+          "Jia Hong": 6.4,
+          "Clarence": 6.4
         },
         "matchPool": 32,
         "potContrib": 8,
-        "totalPts": 4
+        "totalPts": 5
       },
       "3": {
         "result": {
