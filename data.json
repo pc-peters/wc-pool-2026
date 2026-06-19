@@ -2166,7 +2166,9 @@
       }
     }
   },
-  "pot": 224,
+  "pot": 624.0,
   "groupSettlementDone": false,
-  "groupSettlementAmount": 0
+  "groupSettlementAmount": 0,
+  "generated": "After Round 1 reset · 18 June",
+  "_r2migrated": true
 }
