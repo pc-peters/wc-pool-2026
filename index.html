@@ -124,7 +124,10 @@ select option{background:#1a2820;color:var(--cream)}
 
 <script>
 const PLAYERS = ['Paul','Clarence','Randall','Rayner','Ai Jie','Clara','Imee','Jia Hong'];
-const STAKE=5.00, POOL_CUT=0.80, POT_CUT=0.20;
+const STAKE=5.00;
+const R1_CUTOFF='2026-06-18';
+const R1_RESULTS={'Jia Hong':-17.71,'Clarence':-25.84,'Rayner':-26.03,'Ai Jie':-26.85,'Paul':-27.83,'Randall':-29.14,'Clara':-32.98,'Imee':-37.68};
+const BUYIN=50.00;
 const GROUPS_2026=['A','B','C','D','E','F','G','H','I','J','K','L'];
 const TEAMS_2026={
   A:['Mexico','South Africa','South Korea','Czechia'],
@@ -262,9 +265,11 @@ function showTab(tab,el){
 }
 
 function getPlayerStats(){
+  // R2-onwards betting stats only (matches dated after R1_CUTOFF)
   const stats={};
   PLAYERS.forEach(p=>{stats[p]={pts:0,paid:0,won:0};});
   Object.entries(state.results||{}).forEach(([date,dayResults])=>{
+    if(date<=R1_CUTOFF)return;
     const day=state.matchDays[date];if(!day)return;
     Object.entries(dayResults).forEach(([mi,mr])=>{
       const bets=day.bets[mi]||{};
@@ -279,22 +284,42 @@ function getPlayerStats(){
 
 function renderLeaderboard(){
   const stats=getPlayerStats();
-  const sorted=PLAYERS.slice().sort((a,b)=>(stats[b].won-stats[b].paid)-(stats[a].won-stats[a].paid));
+  const combined=p=>(R1_RESULTS[p]||0)+(stats[p].won-stats[p].paid);
+  const sorted=PLAYERS.slice().sort((a,b)=>combined(b)-combined(a));
   const medals=['🥇','🥈','🥉'];
-  let html=`<div class="card"><div class="card-title">💸 Wallet Standings</div>`;
+
+  let html=`<div class="card"><div class="card-title">💸 Wallet Ranking</div>`;
+  // header
+  html+=`<div style="display:grid;grid-template-columns:22px 1fr 52px 52px 58px 48px 60px;gap:5px;padding:4px 0 8px;font-size:9px;color:var(--muted);text-transform:uppercase;letter-spacing:0.03em;border-bottom:1px solid var(--card-border);margin-bottom:4px">
+    <div></div><div>Player</div>
+    <div style="text-align:right">R1</div>
+    <div style="text-align:right">R2</div>
+    <div style="text-align:right;color:var(--gold)">R1+R2</div>
+    <div style="text-align:right">Buy-in</div>
+    <div style="text-align:right">Total</div>
+  </div>`;
   html+=sorted.map((p,i)=>{
-    const s=stats[p],net=s.won-s.paid;
-    return `<div class="row">
-      <div class="rank-num ${i<3?'podium':''}">${i<3?medals[i]:i+1}</div>
-      <div class="avatar">${ini(p)}</div>
-      <div style="flex:1;margin-left:6px">
-        <div style="font-size:13px;font-weight:600;color:var(--cream)">${p}</div>
-        <div class="sub-line">${Math.round(s.paid/STAKE)} bets · ${s.pts}pts · ${fmt(s.won)} won</div>
+    const s=stats[p];
+    const r2=s.won-s.paid;
+    const r1=R1_RESULTS[p]||0;
+    const r1r2=r1+r2;
+    const total=r1+r2-BUYIN;
+    return `<div style="display:grid;grid-template-columns:22px 1fr 52px 52px 58px 48px 60px;gap:5px;align-items:center;padding:8px 0;border-bottom:1px solid var(--card-border)">
+      <div class="rank-num ${i<3?'podium':''}" style="width:auto">${i<3?medals[i]:i+1}</div>
+      <div style="display:flex;align-items:center;gap:6px;min-width:0">
+        <div class="avatar" style="width:26px;height:26px;font-size:10px">${ini(p)}</div>
+        <div style="font-size:12px;font-weight:600;color:var(--cream);white-space:nowrap;overflow:hidden;text-overflow:ellipsis">${p}</div>
       </div>
-      <div class="net-big ${net>=0?'net-pos':'net-neg'}">${fmtSigned(net)}</div>
+      <div class="net-amt ${r1>=0?'net-pos':'net-neg'}" style="min-width:0;font-size:10px;opacity:0.7">${fmtSigned(r1)}</div>
+      <div class="net-amt ${r2>=0?'net-pos':'net-neg'}" style="min-width:0;font-size:11px">${fmtSigned(r2)}</div>
+      <div class="net-amt ${r1r2>=0?'net-pos':'net-neg'}" style="min-width:0;font-weight:700">${fmtSigned(r1r2)}</div>
+      <div class="net-amt net-neg" style="min-width:0;font-size:10px;opacity:0.7">-$50</div>
+      <div class="net-amt ${total>=0?'net-pos':'net-neg'}" style="min-width:0">${fmtSigned(total)}</div>
     </div>`;
   }).join('');
+  html+=`<div style="font-size:10px;color:var(--muted);margin-top:10px;line-height:1.5">Ranked by <strong style="color:var(--gold)">R1+R2</strong>. R1 = frozen Round 1 net (now in the pot). R2 = live betting. Buy-in = $50 each into the pot. Total = R1 + R2 − buy-in.</div>`;
   html+=`</div>`;
+
   const pot=state.pot||0;
   html+=`<div class="card"><div class="card-title">🏆 Champion Pot</div>
     <div class="pot-summary">
