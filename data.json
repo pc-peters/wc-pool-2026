@@ -2307,6 +2307,176 @@
           }
         }
       }
+    },
+    "2026-06-24": {
+      "matches": [
+        {
+          "home": "Portugal",
+          "away": "Uzbekistan",
+          "group": "K",
+          "venue": "Houston",
+          "sgtTime": "01:00"
+        },
+        {
+          "home": "England",
+          "away": "Ghana",
+          "group": "L",
+          "venue": "Boston",
+          "sgtTime": "04:00"
+        },
+        {
+          "home": "Panama",
+          "away": "Croatia",
+          "group": "L",
+          "venue": "Toronto",
+          "sgtTime": "07:00"
+        },
+        {
+          "home": "Colombia",
+          "away": "Congo DR",
+          "group": "K",
+          "venue": "Guadalajara",
+          "sgtTime": "10:00"
+        }
+      ],
+      "bets": {
+        "0": {
+          "Paul": {
+            "home": 1,
+            "away": 0
+          },
+          "Jia Hong": {
+            "home": 2,
+            "away": 1
+          },
+          "Imee": {
+            "home": 3,
+            "away": 1
+          },
+          "Ai Jie": {
+            "home": 3,
+            "away": 0
+          },
+          "Rayner": {
+            "home": 3,
+            "away": 0
+          },
+          "Randall": {
+            "home": 2,
+            "away": 1
+          },
+          "Clarence": {
+            "home": 2,
+            "away": 0
+          },
+          "Clara": {
+            "home": 2,
+            "away": 1
+          }
+        },
+        "1": {
+          "Paul": {
+            "home": 2,
+            "away": 1
+          },
+          "Jia Hong": {
+            "home": 2,
+            "away": 0
+          },
+          "Imee": {
+            "home": 1,
+            "away": 1
+          },
+          "Ai Jie": {
+            "home": 3,
+            "away": 1
+          },
+          "Rayner": {
+            "home": 3,
+            "away": 0
+          },
+          "Randall": {
+            "home": 4,
+            "away": 1
+          },
+          "Clarence": {
+            "home": 4,
+            "away": 0
+          },
+          "Clara": {
+            "home": 3,
+            "away": 1
+          }
+        },
+        "2": {
+          "Paul": {
+            "home": 1,
+            "away": 2
+          },
+          "Jia Hong": {
+            "home": 1,
+            "away": 2
+          },
+          "Imee": {
+            "home": 0,
+            "away": 1
+          },
+          "Ai Jie": {
+            "home": 0,
+            "away": 2
+          },
+          "Rayner": {
+            "home": 0,
+            "away": 3
+          },
+          "Randall": {
+            "home": 0,
+            "away": 2
+          },
+          "Clarence": {
+            "home": 1,
+            "away": 3
+          },
+          "Clara": {
+            "home": 1,
+            "away": 3
+          }
+        },
+        "3": {
+          "Paul": {
+            "home": 2,
+            "away": 0
+          },
+          "Jia Hong": {
+            "home": 3,
+            "away": 1
+          },
+          "Imee": {
+            "home": 1,
+            "away": 0
+          },
+          "Ai Jie": {
+            "home": 2,
+            "away": 1
+          },
+          "Rayner": {
+            "home": 1,
+            "away": 1
+          },
+          "Randall": {
+            "home": 3,
+            "away": 0
+          },
+          "Clarence": {
+            "home": 2,
+            "away": 2
+          },
+          "Clara": {
+            "home": 2,
+            "away": 1
+          }
+        }
+      }
     }
   },
   "results": {
@@ -3597,6 +3767,124 @@
         "matchPool": 40,
         "potContrib": 0,
         "totalPts": 40
+      }
+    },
+    "2026-06-24": {
+      "0": {
+        "result": {
+          "home": 5,
+          "away": 0
+        },
+        "scores": {
+          "Paul": 5,
+          "Jia Hong": 4,
+          "Imee": 4,
+          "Ai Jie": 5,
+          "Rayner": 5,
+          "Randall": 4,
+          "Clarence": 5,
+          "Clara": 4
+        },
+        "payouts": {
+          "Paul": 5.56,
+          "Jia Hong": 4.44,
+          "Imee": 4.44,
+          "Ai Jie": 5.56,
+          "Rayner": 5.56,
+          "Randall": 4.44,
+          "Clarence": 5.56,
+          "Clara": 4.44
+        },
+        "matchPool": 40,
+        "potContrib": 0,
+        "totalPts": 36
+      },
+      "1": {
+        "result": {
+          "home": 0,
+          "away": 0
+        },
+        "scores": {
+          "Paul": 0,
+          "Jia Hong": 1,
+          "Imee": 4,
+          "Ai Jie": 0,
+          "Rayner": 1,
+          "Randall": 0,
+          "Clarence": 1,
+          "Clara": 0
+        },
+        "payouts": {
+          "Paul": 0,
+          "Jia Hong": 5.71,
+          "Imee": 22.86,
+          "Ai Jie": 0,
+          "Rayner": 5.71,
+          "Randall": 0,
+          "Clarence": 5.71,
+          "Clara": 0
+        },
+        "matchPool": 40,
+        "potContrib": 0,
+        "totalPts": 7
+      },
+      "2": {
+        "result": {
+          "home": 0,
+          "away": 1
+        },
+        "scores": {
+          "Paul": 4,
+          "Jia Hong": 4,
+          "Imee": 10,
+          "Ai Jie": 5,
+          "Rayner": 5,
+          "Randall": 5,
+          "Clarence": 4,
+          "Clara": 4
+        },
+        "payouts": {
+          "Paul": 3.9,
+          "Jia Hong": 3.9,
+          "Imee": 9.76,
+          "Ai Jie": 4.88,
+          "Rayner": 4.88,
+          "Randall": 4.88,
+          "Clarence": 3.9,
+          "Clara": 3.9
+        },
+        "matchPool": 40,
+        "potContrib": 0,
+        "totalPts": 41
+      },
+      "3": {
+        "result": {
+          "home": 1,
+          "away": 0
+        },
+        "scores": {
+          "Paul": 5,
+          "Jia Hong": 4,
+          "Imee": 10,
+          "Ai Jie": 4,
+          "Rayner": 1,
+          "Randall": 5,
+          "Clarence": 4,
+          "Clara": 4
+        },
+        "payouts": {
+          "Paul": 5.41,
+          "Jia Hong": 4.32,
+          "Imee": 10.81,
+          "Ai Jie": 4.32,
+          "Rayner": 1.08,
+          "Randall": 5.41,
+          "Clarence": 4.32,
+          "Clara": 4.32
+        },
+        "matchPool": 40,
+        "potContrib": 0,
+        "totalPts": 37
       }
     }
   },
