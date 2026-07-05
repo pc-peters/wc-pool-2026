@@ -286,6 +286,14 @@ function koAsScheduleRow(m){
   return {sgtDate:m.sgtDate, sgtTime:m.sgtTime, stage:m.stage, id:m.id,
           home:koResolveSide(m,'home'), away:koResolveSide(m,'away'), venue:m.venue};
 }
+// Resolve a stored matchDay entry's team names live from the bracket.
+function liveTeams(m){
+  if(m && m.id && BRACKET_BY_ID[m.id]){
+    const bm=BRACKET_BY_ID[m.id];
+    return {home:koResolveSide(bm,'home'), away:koResolveSide(bm,'away')};
+  }
+  return {home:m.home, away:m.away};
+}
 // All fixtures (group + knockout) for schedule/bets, knockout names resolved live.
 function allFixtures(){
   return SCHEDULE.concat(BRACKET.map(koAsScheduleRow));
@@ -510,7 +518,7 @@ function renderResultDay(){
     const r=dayResults[mi];if(!r)return;
     const bets=day.bets[mi]||{};
     const bettors=Object.keys(bets).sort((a,b)=>(r.scores[b]||0)-(r.scores[a]||0));
-    const sched=schedForDate.find(s=>s.home===m.home&&s.away===m.away);
+    const sched=schedForDate.find(s=>(m.id&&s.id===m.id)||(s.home===m.home&&s.away===m.away));
     const betGrid=bettors.length?`<div class="result-bets-grid">${bettors.map(p=>{
       const b=bets[p],s=r.scores[p],pay=r.payouts[p]||0;
       const cls=s>=10?'pts-10':s>=5?'pts-5':s>=4?'pts-4':s>=1?'pts-1':'pts-0';
@@ -522,9 +530,9 @@ function renderResultDay(){
     html+=`<div class="result-match-block">
       <div class="result-meta">${sched?fmt12h(sched.sgtTime)+' SGT · ':''}${m.venue||''} ${m.stage?'· '+m.stage:(m.group?'· Group '+m.group:'')}</div>
       <div class="result-header">
-        <span class="result-team">${m.home}</span>
+        <span class="result-team">${liveTeams(m).home}</span>
         <span class="result-score">${r.result.home}–${r.result.away}</span>
-        <span class="result-team away">${m.away}</span>
+        <span class="result-team away">${liveTeams(m).away}</span>
       </div>
       ${betGrid}
     </div>`;
