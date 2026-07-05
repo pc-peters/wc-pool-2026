@@ -4173,6 +4173,96 @@
           }
         }
       }
+    },
+    "2026-07-05": {
+      "matches": [
+        {
+          "home": "Winner R32-1",
+          "away": "Winner R32-4",
+          "stage": "R16",
+          "id": "R16-1",
+          "venue": "Houston",
+          "sgtTime": "01:00"
+        },
+        {
+          "home": "Winner R32-3",
+          "away": "Winner R32-6",
+          "stage": "R16",
+          "id": "R16-2",
+          "venue": "Philadelphia",
+          "sgtTime": "05:00"
+        }
+      ],
+      "bets": {
+        "0": {
+          "Rayner": {
+            "home": 1,
+            "away": 2
+          },
+          "Imee": {
+            "home": 1,
+            "away": 1
+          },
+          "Paul": {
+            "home": 0,
+            "away": 0
+          },
+          "Ai Jie": {
+            "home": 0,
+            "away": 1
+          },
+          "Clarence": {
+            "home": 1,
+            "away": 3
+          },
+          "Jia Hong": {
+            "home": 1,
+            "away": 2
+          },
+          "Clara": {
+            "home": 1,
+            "away": 2
+          },
+          "Randall": {
+            "home": 0,
+            "away": 2
+          }
+        },
+        "1": {
+          "Rayner": {
+            "home": 1,
+            "away": 3
+          },
+          "Imee": {
+            "home": 0,
+            "away": 2
+          },
+          "Paul": {
+            "home": 1,
+            "away": 3
+          },
+          "Ai Jie": {
+            "home": 1,
+            "away": 3
+          },
+          "Clarence": {
+            "home": 0,
+            "away": 0
+          },
+          "Jia Hong": {
+            "home": 1,
+            "away": 2
+          },
+          "Clara": {
+            "home": 0,
+            "away": 3
+          },
+          "Randall": {
+            "home": 0,
+            "away": 2
+          }
+        }
+      }
     }
   },
   "results": {
@@ -6760,10 +6850,90 @@
         "potContrib": 0,
         "totalPts": 33
       }
+    },
+    "2026-07-05": {
+      "0": {
+        "result": {
+          "home": 0,
+          "away": 3
+        },
+        "scores": {
+          "Rayner": 4,
+          "Imee": 0,
+          "Paul": 1,
+          "Ai Jie": 5,
+          "Clarence": 5,
+          "Jia Hong": 4,
+          "Clara": 4,
+          "Randall": 5
+        },
+        "payouts": {
+          "Rayner": 5.71,
+          "Imee": 0,
+          "Paul": 1.43,
+          "Ai Jie": 7.14,
+          "Clarence": 7.14,
+          "Jia Hong": 5.71,
+          "Clara": 5.71,
+          "Randall": 7.14
+        },
+        "matchPool": 40,
+        "potContrib": 0,
+        "totalPts": 28
+      },
+      "1": {
+        "result": {
+          "home": 0,
+          "away": 1
+        },
+        "scores": {
+          "Rayner": 4,
+          "Imee": 5,
+          "Paul": 4,
+          "Ai Jie": 4,
+          "Clarence": 1,
+          "Jia Hong": 4,
+          "Clara": 5,
+          "Randall": 5
+        },
+        "payouts": {
+          "Rayner": 5,
+          "Imee": 6.25,
+          "Paul": 5,
+          "Ai Jie": 5,
+          "Clarence": 1.25,
+          "Jia Hong": 5,
+          "Clara": 6.25,
+          "Randall": 6.25
+        },
+        "matchPool": 40,
+        "potContrib": 0,
+        "totalPts": 32
+      }
     }
   },
   "pot": 644,
   "groupSettlementDone": false,
   "groupSettlementAmount": 0,
-  "_r2migrated": true
+  "_r2migrated": true,
+  "advancers": {
+    "R32-1": "Canada",
+    "R32-2": "Brazil",
+    "R32-3": "Paraguay",
+    "R32-4": "Morocco",
+    "R32-5": "Norway",
+    "R32-6": "France",
+    "R32-7": "Mexico",
+    "R32-8": "England",
+    "R32-9": "Belgium",
+    "R32-10": "United States",
+    "R32-11": "Spain",
+    "R32-12": "Portugal",
+    "R32-13": "Switzerland",
+    "R32-14": "Egypt",
+    "R32-15": "Argentina",
+    "R32-16": "Colombia",
+    "R16-1": "Morocco",
+    "R16-2": "France"
+  }
 }
