@@ -3493,7 +3493,8 @@
           "away": "Canada",
           "stage": "R32",
           "venue": "Los Angeles",
-          "sgtTime": "03:00"
+          "sgtTime": "03:00",
+          "id": "R32-1"
         }
       ],
       "bets": {
@@ -3536,21 +3537,24 @@
           "away": "Japan",
           "stage": "R32",
           "venue": "Houston",
-          "sgtTime": "01:00"
+          "sgtTime": "01:00",
+          "id": "R32-2"
         },
         {
           "home": "Germany",
           "away": "Paraguay",
           "stage": "R32",
           "venue": "Boston",
-          "sgtTime": "04:30"
+          "sgtTime": "04:30",
+          "id": "R32-3"
         },
         {
           "home": "Netherlands",
           "away": "Morocco",
           "stage": "R32",
           "venue": "Monterrey",
-          "sgtTime": "09:00"
+          "sgtTime": "09:00",
+          "id": "R32-4"
         }
       ],
       "bets": {
@@ -3665,21 +3669,24 @@
           "away": "Norway",
           "stage": "R32",
           "venue": "Dallas",
-          "sgtTime": "01:00"
+          "sgtTime": "01:00",
+          "id": "R32-5"
         },
         {
           "home": "France",
           "away": "Sweden",
           "stage": "R32",
           "venue": "New York",
-          "sgtTime": "05:00"
+          "sgtTime": "05:00",
+          "id": "R32-6"
         },
         {
           "home": "Mexico",
           "away": "Ecuador",
           "stage": "R32",
           "venue": "Mexico City",
-          "sgtTime": "09:00"
+          "sgtTime": "09:00",
+          "id": "R32-7"
         }
       ],
       "bets": {
@@ -3794,21 +3801,24 @@
           "away": "Congo DR",
           "stage": "R32",
           "venue": "Atlanta",
-          "sgtTime": "00:00"
+          "sgtTime": "00:00",
+          "id": "R32-8"
         },
         {
           "home": "Belgium",
           "away": "Senegal",
           "stage": "R32",
           "venue": "Seattle",
-          "sgtTime": "04:00"
+          "sgtTime": "04:00",
+          "id": "R32-9"
         },
         {
           "home": "United States",
           "away": "Bosnia-Herzegovina",
           "stage": "R32",
           "venue": "San Francisco",
-          "sgtTime": "08:00"
+          "sgtTime": "08:00",
+          "id": "R32-10"
         }
       ],
       "bets": {
@@ -3923,21 +3933,24 @@
           "away": "Austria",
           "stage": "R32",
           "venue": "Los Angeles",
-          "sgtTime": "03:00"
+          "sgtTime": "03:00",
+          "id": "R32-11"
         },
         {
           "home": "Portugal",
           "away": "Croatia",
           "stage": "R32",
           "venue": "Toronto",
-          "sgtTime": "07:00"
+          "sgtTime": "07:00",
+          "id": "R32-12"
         },
         {
           "home": "Switzerland",
           "away": "Algeria",
           "stage": "R32",
           "venue": "Vancouver",
-          "sgtTime": "11:00"
+          "sgtTime": "11:00",
+          "id": "R32-13"
         }
       ],
       "bets": {
@@ -4052,21 +4065,24 @@
           "away": "Egypt",
           "stage": "R32",
           "venue": "Dallas",
-          "sgtTime": "02:00"
+          "sgtTime": "02:00",
+          "id": "R32-14"
         },
         {
           "home": "Argentina",
           "away": "Cape Verde",
           "stage": "R32",
           "venue": "Miami",
-          "sgtTime": "06:00"
+          "sgtTime": "06:00",
+          "id": "R32-15"
         },
         {
           "home": "Colombia",
           "away": "Ghana",
           "stage": "R32",
           "venue": "Kansas City",
-          "sgtTime": "09:30"
+          "sgtTime": "09:30",
+          "id": "R32-16"
         }
       ],
       "bets": {
@@ -4260,6 +4276,186 @@
           "Randall": {
             "home": 0,
             "away": 2
+          }
+        }
+      }
+    },
+    "2026-07-07": {
+      "matches": [
+        {
+          "home": "Spain",
+          "away": "Portugal",
+          "stage": "R16",
+          "id": "R16-5",
+          "venue": "Dallas",
+          "sgtTime": "03:00"
+        },
+        {
+          "home": "Belgium",
+          "away": "United States",
+          "stage": "R16",
+          "id": "R16-6",
+          "venue": "Seattle",
+          "sgtTime": "08:00"
+        }
+      ],
+      "bets": {
+        "0": {
+          "Rayner": {
+            "home": 2,
+            "away": 1
+          },
+          "Clarence": {
+            "home": 0,
+            "away": 2
+          },
+          "Ai Jie": {
+            "home": 1,
+            "away": 1
+          },
+          "Jia Hong": {
+            "home": 3,
+            "away": 0
+          },
+          "Imee": {
+            "home": 2,
+            "away": 2
+          },
+          "Paul": {
+            "home": 3,
+            "away": 1
+          },
+          "Randall": {
+            "home": 1,
+            "away": 2
+          },
+          "Clara": {
+            "home": 1,
+            "away": 2
+          }
+        },
+        "1": {
+          "Rayner": {
+            "home": 1,
+            "away": 2
+          },
+          "Clarence": {
+            "home": 3,
+            "away": 1
+          },
+          "Ai Jie": {
+            "home": 1,
+            "away": 1
+          },
+          "Jia Hong": {
+            "home": 1,
+            "away": 2
+          },
+          "Imee": {
+            "home": 1,
+            "away": 2
+          },
+          "Paul": {
+            "home": 1,
+            "away": 1
+          },
+          "Randall": {
+            "home": 2,
+            "away": 1
+          },
+          "Clara": {
+            "home": 1,
+            "away": 2
+          }
+        }
+      }
+    },
+    "2026-07-06": {
+      "matches": [
+        {
+          "home": "Brazil",
+          "away": "Norway",
+          "stage": "R16",
+          "id": "R16-3",
+          "venue": "New York",
+          "sgtTime": "04:00"
+        },
+        {
+          "home": "Mexico",
+          "away": "England",
+          "stage": "R16",
+          "id": "R16-4",
+          "venue": "Mexico City",
+          "sgtTime": "08:00"
+        }
+      ],
+      "bets": {
+        "0": {
+          "Rayner": {
+            "home": 3,
+            "away": 1
+          },
+          "Clarence": {
+            "home": 0,
+            "away": 0
+          },
+          "Paul": {
+            "home": 1,
+            "away": 1
+          },
+          "Randall": {
+            "home": 2,
+            "away": 1
+          },
+          "Imee": {
+            "home": 3,
+            "away": 2
+          },
+          "Clara": {
+            "home": 2,
+            "away": 1
+          },
+          "Ai Jie": {
+            "home": 3,
+            "away": 2
+          },
+          "Jia Hong": {
+            "home": 1,
+            "away": 2
+          }
+        },
+        "1": {
+          "Rayner": {
+            "home": 0,
+            "away": 0
+          },
+          "Clarence": {
+            "home": 1,
+            "away": 3
+          },
+          "Paul": {
+            "home": 2,
+            "away": 2
+          },
+          "Randall": {
+            "home": 1,
+            "away": 2
+          },
+          "Imee": {
+            "home": 1,
+            "away": 0
+          },
+          "Clara": {
+            "home": 2,
+            "away": 1
+          },
+          "Ai Jie": {
+            "home": 1,
+            "away": 1
+          },
+          "Jia Hong": {
+            "home": 2,
+            "away": 1
           }
         }
       }
@@ -6909,6 +7105,126 @@
         "matchPool": 40,
         "potContrib": 0,
         "totalPts": 32
+      }
+    },
+    "2026-07-06": {
+      "0": {
+        "result": {
+          "home": 1,
+          "away": 2
+        },
+        "scores": {
+          "Rayner": 0,
+          "Clarence": 0,
+          "Paul": 1,
+          "Randall": 0,
+          "Imee": 1,
+          "Clara": 0,
+          "Ai Jie": 1,
+          "Jia Hong": 10
+        },
+        "payouts": {
+          "Rayner": 0,
+          "Clarence": 0,
+          "Paul": 3.08,
+          "Randall": 0,
+          "Imee": 3.08,
+          "Clara": 0,
+          "Ai Jie": 3.08,
+          "Jia Hong": 30.77
+        },
+        "matchPool": 40,
+        "potContrib": 0,
+        "totalPts": 13
+      },
+      "1": {
+        "result": {
+          "home": 2,
+          "away": 3
+        },
+        "scores": {
+          "Rayner": 0,
+          "Clarence": 5,
+          "Paul": 1,
+          "Randall": 4,
+          "Imee": 0,
+          "Clara": 1,
+          "Ai Jie": 0,
+          "Jia Hong": 1
+        },
+        "payouts": {
+          "Rayner": 0,
+          "Clarence": 16.67,
+          "Paul": 3.33,
+          "Randall": 13.33,
+          "Imee": 0,
+          "Clara": 3.33,
+          "Ai Jie": 0,
+          "Jia Hong": 3.33
+        },
+        "matchPool": 40,
+        "potContrib": 0,
+        "totalPts": 12
+      }
+    },
+    "2026-07-07": {
+      "0": {
+        "result": {
+          "home": 1,
+          "away": 0
+        },
+        "scores": {
+          "Rayner": 4,
+          "Clarence": 0,
+          "Ai Jie": 1,
+          "Jia Hong": 5,
+          "Imee": 0,
+          "Paul": 4,
+          "Randall": 1,
+          "Clara": 1
+        },
+        "payouts": {
+          "Rayner": 10,
+          "Clarence": 0,
+          "Ai Jie": 2.5,
+          "Jia Hong": 12.5,
+          "Imee": 0,
+          "Paul": 10,
+          "Randall": 2.5,
+          "Clara": 2.5
+        },
+        "matchPool": 40,
+        "potContrib": 0,
+        "totalPts": 16
+      },
+      "1": {
+        "result": {
+          "home": 4,
+          "away": 1
+        },
+        "scores": {
+          "Rayner": 0,
+          "Clarence": 5,
+          "Ai Jie": 1,
+          "Jia Hong": 0,
+          "Imee": 0,
+          "Paul": 1,
+          "Randall": 5,
+          "Clara": 0
+        },
+        "payouts": {
+          "Rayner": 0,
+          "Clarence": 16.67,
+          "Ai Jie": 3.33,
+          "Jia Hong": 0,
+          "Imee": 0,
+          "Paul": 3.33,
+          "Randall": 16.67,
+          "Clara": 0
+        },
+        "matchPool": 40,
+        "potContrib": 0,
+        "totalPts": 12
       }
     }
   },
