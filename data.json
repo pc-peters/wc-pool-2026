@@ -4755,7 +4755,186 @@
           "sgtTime": "03:00"
         }
       ],
-      "bets": {}
+      "bets": {
+        "0": {
+          "Randall": {
+            "home": 3,
+            "away": 1
+          },
+          "Ai Jie": {
+            "home": 2,
+            "away": 1
+          },
+          "Imee": {
+            "home": 1,
+            "away": 1
+          },
+          "Paul": {
+            "home": 2,
+            "away": 0
+          },
+          "Clarence": {
+            "home": 0,
+            "away": 3
+          },
+          "Jia Hong": {
+            "home": 2,
+            "away": 2
+          },
+          "Rayner": {
+            "home": 1,
+            "away": 2
+          },
+          "Clara": {
+            "home": 3,
+            "away": 2
+          }
+        }
+      }
+    },
+    "2026-07-16": {
+      "matches": [
+        {
+          "home": "England",
+          "away": "Argentina",
+          "stage": "SF",
+          "id": "SF-2",
+          "venue": "Atlanta",
+          "sgtTime": "03:00"
+        }
+      ],
+      "bets": {
+        "0": {
+          "Jia Hong": {
+            "home": 2,
+            "away": 2
+          },
+          "Paul": {
+            "home": 1,
+            "away": 3
+          },
+          "Ai Jie": {
+            "home": 1,
+            "away": 1
+          },
+          "Clara": {
+            "home": 1,
+            "away": 2
+          },
+          "Rayner": {
+            "home": 1,
+            "away": 1
+          },
+          "Clarence": {
+            "home": 2,
+            "away": 0
+          },
+          "Randall": {
+            "home": 2,
+            "away": 1
+          },
+          "Imee": {
+            "home": 1,
+            "away": 2
+          }
+        }
+      }
+    },
+    "2026-07-19": {
+      "matches": [
+        {
+          "home": "France",
+          "away": "England",
+          "stage": "3rd Place",
+          "id": "3RD",
+          "venue": "Miami",
+          "sgtTime": "05:00"
+        }
+      ],
+      "bets": {
+        "0": {
+          "Jia Hong": {
+            "home": 2,
+            "away": 1
+          },
+          "Clarence": {
+            "home": 2,
+            "away": 3
+          },
+          "Paul": {
+            "home": 1,
+            "away": 1
+          },
+          "Rayner": {
+            "home": 3,
+            "away": 1
+          },
+          "Ai Jie": {
+            "home": 2,
+            "away": 1
+          },
+          "Clara": {
+            "home": 3,
+            "away": 2
+          },
+          "Randall": {
+            "home": 4,
+            "away": 2
+          },
+          "Imee": {
+            "home": 1,
+            "away": 2
+          }
+        }
+      }
+    },
+    "2026-07-20": {
+      "matches": [
+        {
+          "home": "Spain",
+          "away": "Argentina",
+          "stage": "Final",
+          "id": "FINAL",
+          "venue": "New York",
+          "sgtTime": "03:00"
+        }
+      ],
+      "bets": {
+        "0": {
+          "Jia Hong": {
+            "home": 3,
+            "away": 2
+          },
+          "Clarence": {
+            "home": 0,
+            "away": 0
+          },
+          "Randall": {
+            "home": 1,
+            "away": 2
+          },
+          "Rayner": {
+            "home": 2,
+            "away": 0
+          },
+          "Ai Jie": {
+            "home": 2,
+            "away": 1
+          },
+          "Imee": {
+            "home": 2,
+            "away": 3
+          },
+          "Clara": {
+            "home": 3,
+            "away": 1
+          },
+          "Paul": {
+            "home": 1,
+            "away": 1
+          }
+        }
+      }
     }
   },
   "results": {
@@ -7705,6 +7884,130 @@
         "potContrib": 0,
         "totalPts": 18
       }
+    },
+    "2026-07-15": {
+      "0": {
+        "result": {
+          "home": 0,
+          "away": 2
+        },
+        "scores": {
+          "Randall": 0,
+          "Ai Jie": 0,
+          "Imee": 0,
+          "Paul": 0,
+          "Clarence": 5,
+          "Jia Hong": 1,
+          "Rayner": 5,
+          "Clara": 1
+        },
+        "payouts": {
+          "Randall": 0,
+          "Ai Jie": 0,
+          "Imee": 0,
+          "Paul": 0,
+          "Clarence": 16.67,
+          "Jia Hong": 3.33,
+          "Rayner": 16.67,
+          "Clara": 3.33
+        },
+        "matchPool": 40,
+        "potContrib": 0,
+        "totalPts": 12
+      }
+    },
+    "2026-07-16": {
+      "0": {
+        "result": {
+          "home": 1,
+          "away": 2
+        },
+        "scores": {
+          "Jia Hong": 1,
+          "Paul": 5,
+          "Ai Jie": 1,
+          "Clara": 10,
+          "Rayner": 1,
+          "Clarence": 0,
+          "Randall": 0,
+          "Imee": 10
+        },
+        "payouts": {
+          "Jia Hong": 1.43,
+          "Paul": 7.14,
+          "Ai Jie": 1.43,
+          "Clara": 14.29,
+          "Rayner": 1.43,
+          "Clarence": 0,
+          "Randall": 0,
+          "Imee": 14.29
+        },
+        "matchPool": 40,
+        "potContrib": 0,
+        "totalPts": 28
+      }
+    },
+    "2026-07-19": {
+      "0": {
+        "result": {
+          "home": 4,
+          "away": 6
+        },
+        "scores": {
+          "Jia Hong": 0,
+          "Clarence": 4,
+          "Paul": 0,
+          "Rayner": 0,
+          "Ai Jie": 0,
+          "Clara": 0,
+          "Randall": 1,
+          "Imee": 4
+        },
+        "payouts": {
+          "Jia Hong": 0,
+          "Clarence": 17.78,
+          "Paul": 0,
+          "Rayner": 0,
+          "Ai Jie": 0,
+          "Clara": 0,
+          "Randall": 4.44,
+          "Imee": 17.78
+        },
+        "matchPool": 40,
+        "potContrib": 0,
+        "totalPts": 9
+      }
+    },
+    "2026-07-20": {
+      "0": {
+        "result": {
+          "home": 0,
+          "away": 0
+        },
+        "scores": {
+          "Jia Hong": 0,
+          "Clarence": 10,
+          "Randall": 0,
+          "Rayner": 1,
+          "Ai Jie": 0,
+          "Imee": 0,
+          "Clara": 0,
+          "Paul": 4
+        },
+        "payouts": {
+          "Jia Hong": 0,
+          "Clarence": 26.67,
+          "Randall": 0,
+          "Rayner": 2.67,
+          "Ai Jie": 0,
+          "Imee": 0,
+          "Clara": 0,
+          "Paul": 10.67
+        },
+        "matchPool": 40,
+        "potContrib": 0,
+        "totalPts": 15
+      }
     }
   },
   "pot": 644,
@@ -7739,6 +8042,8 @@
     "QF-1": "France",
     "QF-2": "Spain",
     "QF-3": "England",
-    "QF-4": "Argentina"
+    "QF-4": "Argentina",
+    "SF-1": "Spain",
+    "SF-2": "Argentina"
   }
 }
